@@ -5,5 +5,4 @@ kind: Kustomization
 resources:
   - ./ingress-nginx.yaml
   - ./jetstack.yaml
-  - ./mastodon.yaml
   - ./metallb.yaml
