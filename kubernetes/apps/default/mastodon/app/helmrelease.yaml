@@ -12,7 +12,7 @@ spec:
       chart: mastodon
       version: 4.0.0
       sourceRef:
-        kind: HelmRepository
+        kind: GitRepository
         name: mastodon
         namespace: flux-system
   maxHistory: 3
