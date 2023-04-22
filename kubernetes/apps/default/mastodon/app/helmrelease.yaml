@@ -26,3 +26,8 @@ spec:
       retries: 3
   uninstall:
     keepHistory: false
+  valuesFrom:
+    - kind: Secret
+      name: mastodon-values-secrets
+    - kind: ConfigMap
+      name: mastodon-values
