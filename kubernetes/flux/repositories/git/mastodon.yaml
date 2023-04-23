@@ -7,6 +7,6 @@ metadata:
   namespace: flux-system
 spec:
   interval: 2h
-  url: https://github.com/mastodon/chart
+  url: https://github.com/nrdufour/chart
   ref:
     branch: main
