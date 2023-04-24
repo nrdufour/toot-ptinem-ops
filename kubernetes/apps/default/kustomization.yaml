@@ -5,4 +5,4 @@ kind: Kustomization
 resources:
   - ./namespace.yaml
   - ./postgresql/ks.yaml
-  - ./mastodon/ks.yaml
+  # - ./mastodon/ks.yaml
