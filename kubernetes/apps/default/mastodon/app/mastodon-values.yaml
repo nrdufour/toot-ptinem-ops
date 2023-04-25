@@ -233,7 +233,9 @@ elasticsearch:
 postgresql:
   # -- disable if you want to use an existing db; in which case the values below
   # must match those of that external postgres instance
-  enabled: true
+  enabled: false
+  postgresqlHostname: postgresql.default
+  postgresqlPort: 5432
 
 # https://github.com/bitnami/charts/tree/master/bitnami/redis#parameters
 redis:
